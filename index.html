@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +13,59 @@
 
 <style>
     body {
-        margin-left: 10vw;
+        margin: 0;
+        font-family: 'Alumni Sans Pinstripe', sans-serif;
     }
+
     img {
         width: 80vw;
         max-width: 1000px;
         margin-bottom: 5vh;
     }
+    .header {
+        box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+        background-color: rgb(223, 223, 223);
+        padding: 40px;
+    }
+    .buttons {
+        transition: 0.5s;
+        padding: 10px;
+        margin: 10px;
+        font-size: 2em;
+        box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.1);
+    }
+    .buttons:hover {
+        box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.5);
+    }
+    a:link {
+        text-decoration: none;
+    }
+    a:visited {
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    a:active {
+        text-decoration: none;
+    }
 </style>
 
+
 <body>
+    <div class="header">
+        <a class="buttons" href="">Shadows</a>
+        <a class="buttons" href="">Borders</a>
+        <a class="buttons" href="icons.html">Icons</a>
+    </div>
+
+    <br>
+
     <!-- shadows -->
     <img src="shadows/shadow-1.png" alt="" srcset=""><br>
+    <img src="shadows/shadow-12.png" alt="" srcset=""><br>
+    <img src="shadows/shadow-11.png" alt="" srcset=""><br>
+    <img src="shadows/shadow-9.png" alt="" srcset=""><br>
     <img src="shadows/shadow-2.png" alt="" srcset=""><br>
     <img src="shadows/shadow-3.png" alt="" srcset=""><br>
     <img src="shadows/shadow-4.png" alt="" srcset=""><br>
@@ -28,12 +73,11 @@
     <img src="shadows/shadow-6.png" alt="" srcset=""><br>
     <img src="shadows/shadow-7.png" alt="" srcset=""><br>
     <img src="shadows/shadow-8.png" alt="" srcset=""><br>
-    <img src="shadows/shadow-9.png" alt="" srcset=""><br>
     <img src="shadows/shadow-10.png" alt="" srcset=""><br>
-    <img src="shadows/shadow-11.png" alt="" srcset=""><br>
-    <img src="shadows/shadow-12.png" alt="" srcset=""><br>
+
 
     <!-- shadows --><br><br>
     <img src="borders/border-1.png" alt="" srcset=""><br>
 </body>
+
 </html>
